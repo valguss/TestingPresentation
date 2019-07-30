@@ -15,7 +15,7 @@
 
 ## Unit Tests
 - tests the code in isolation.
-- These are useful to test specific parts of the code that don't require Magent oto be booted up
+- These are useful to test specific parts of the code that don't require Magento to be booted up
 ---
 
 ## Integration tests
@@ -35,6 +35,8 @@
 
 ## Why functional testing?
 - Saves Aggie many hours of running through the same tests scripts
+
 ![](assets/img/Software-Testing-Memes-7.jpg)
+
 - If the client browses the site a certain way, we can script that
 ---
