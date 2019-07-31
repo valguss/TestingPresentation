@@ -44,6 +44,8 @@
 ## Why functional testing?
 - If the client browses the site a certain way, we can script that
 - Saves Aggie many hours of running through the same tests scripts
+---
+
 ![](assets/img/Software-Testing-Memes-7.jpg)
 ---
 
