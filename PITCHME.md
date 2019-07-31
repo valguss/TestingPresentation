@@ -20,10 +20,17 @@
 
 ## Integration tests
 - Tests code when it's integrated (IE, installed into Magento)
+- Tests against an actual running instance of Magento
 - Good for testing if an upgrade breaks the code
 - Generally more useful than Unit Testing
 - Gives us a higher level of confidence that an upgrade didn't break our code
 - Also gives us high confidence that installing another module didn't break our code
+---
+
+## Who's Travis?
+- Travis is a service we use that automatically runs these tests
+- It either passes or fails the code
+- We can't deploy new code without a pass
 ---
 
 ## Functional Tests
@@ -34,9 +41,17 @@
 ---
 
 ## Why functional testing?
+- If the client browses the site a certain way, we can script that
 - Saves Aggie many hours of running through the same tests scripts
 
 ![](assets/img/Software-Testing-Memes-7.jpg)
+---
 
-- If the client browses the site a certain way, we can script that
+## How?
+- There are a few ways we can acheive Functional testing
+  - https://www.cypress.io/
+  - https://ghostinspector.com/
+- These services allow technical and non technical people to create these tests
+- Cypress promises to allow us to create tests quickly
+- Ghost inspector allows non technical people to create tests as well
 ---
