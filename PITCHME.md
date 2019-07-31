@@ -14,7 +14,7 @@
 ---
 
 ## Unit Tests
-- tests the code in isolation.
+- Tests the code in isolation.
 - These are useful to test specific parts of the code that don't require Magento to be booted up
 ---
 
@@ -35,7 +35,7 @@
 ---
 
 ## Functional Tests
-- We haven't started useing these yet
+- We haven't started using these yet
 - Tests are created to mimic user behavior
   - IE, add a product to basket, go to checkout, complete checkout
 - Many of these tests can be quickly adapted for each client
@@ -50,7 +50,7 @@
 ---
 
 ## How?
-- There are a few ways we can acheive Functional testing
+- There are a few ways we can achieve Functional testing
   - https://www.cypress.io/
   - https://ghostinspector.com/
 - These services allow technical and non technical people to create these tests
