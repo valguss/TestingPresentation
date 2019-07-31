@@ -25,6 +25,7 @@
 - Generally more useful than Unit Testing
 - Gives us a higher level of confidence that an upgrade didn't break our code
 - Also gives us high confidence that installing another module didn't break our code
+- We currently run these using Travis
 ---
 
 ## Who's Travis?
