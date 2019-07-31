@@ -36,8 +36,8 @@
 
 ## Functional Tests
 - We haven't started using these yet
-- Tests are created to mimic user behavior
-  - IE, add a product to basket, go to checkout, complete checkout
+- Tests are created to mimic user behaviour
+  - IE, add a product to the basket, go to checkout, complete checkout
 - Many of these tests can be quickly adapted for each client
 ---
 
@@ -53,7 +53,7 @@
 - There are a few ways we can achieve Functional testing
   - https://www.cypress.io/
   - https://ghostinspector.com/
-- These services allow technical and non technical people to create these tests
+- These services allow technical and non-technical people to create these tests
 - Cypress promises to allow us to create tests quickly
-- Ghost inspector allows non technical people to create tests as well
+- Ghost inspector allows non-technical people to create tests as well
 ---
