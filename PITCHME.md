@@ -3,61 +3,65 @@
 ---
 
 ## What you consider testing
-- Check required functionality is there
-- Check critical path works
+- Check the required functionality is present
+- Check the critical path works
 ---
 
 ## What we consider testing
-- Unit Test
-- Integration Tests
-- Functional Tests
+1. Unit Tests
+2. Integration Tests
+3. Functional Tests
 ---
 
-## Unit Tests
-- Tests the code in isolation.
-- These are useful to test specific parts of the code that don't require Magento to be booted up
+## 1. Unit Tests
+- Tests the code in isolation
+- Useful to test specific parts of the code that don't require the entire site to run
 ---
 
-## Integration tests
+## 2. Integration tests
+- Tests code when it's integrated (ie. installed into Magento)
 - Tests against an actual running instance of Magento
-- Good for testing if an upgrade breaks the code
-- Generally more useful than Unit Testing
+- Generally more useful than Unit Tests
 ---
 
-## Why integration tests?
-- Gives us a higher level of confidence that an upgrade didn't break our code
-- Also gives us high confidence that installing another module didn't break our code
-- We currently run these using Travis
+### 2.1. Integration tests cont.
+- Good for testing if an upgrade breaks the code. Gives us a higher level of confidence that an upgrade didn't break our code
+- Gives us high confidence that installing a module didn't break our code
+- We currently run these using Travis...
 ---
 
-## Who's Travis?
-- Travis is a service we use that automatically runs these tests
-- It either passes or fails the code
-- We can't deploy new code without a pass
+### 2.2. Who's Travis?
+- Travis is a (paid) service we use that automatically runs integration tests
+- It tests and passes or fails the code
+- We can't deploy code without a pass
 ---
 
-## Functional Tests
+## 3. Functional Tests
 - We haven't started using these yet
-- Tests are created to mimic user behaviour
-  - IE, add a product to the basket, go to checkout, complete checkout
-- Many of these tests can be quickly adapted for each client
+- Tests are created to directly mimic user behaviour
+  - e.g. search for hats, add a product to the basket, go to checkout, complete checkout
+- These tests can be quickly adapted for each client and replicated across clients
 ---
 
-## Why functional testing?
+### 3.1. Why functional testing?
 - If the client browses the site a certain way, we can script that
-- Saves Aggie many hours of running through the same tests scripts
+- Write once and forget - write the test and it will rerun on every deploy
+- Saves the CS team many hours of running through the same old tests scripts
 ---
 
 ![](assets/img/Software-Testing-Memes-7.jpg)
 ---
 
 ## How?
-- There are a few ways we can achieve Functional testing
+- There are several ways to achieve Functional testing
   - https://www.cypress.io/
   - https://ghostinspector.com/
-- These services allow technical and non-technical people to create these tests
+---
+
+### How? cont.
+- These services allow technical and non-technical people to create the tests
 - Cypress promises to allow us to create tests quickly
-- Ghost inspector allows non-technical people to create tests as well
+- Ghost Inspector allows non-technical people to create tests as well
 ---
 
 ## Why do we even care?
