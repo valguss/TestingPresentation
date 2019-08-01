@@ -63,3 +63,10 @@
 - Cypress promises to allow us to create tests quickly
 - Ghost Inspector allows non-technical people to create tests as well
 ---
+
+## Why do we even care?
+- Adding these tests in will require time
+- More time in quotes
+- Less time required for manual testing in future
+- All this testing is automated
+---
