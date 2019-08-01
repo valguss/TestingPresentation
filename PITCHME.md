@@ -19,10 +19,12 @@
 ---
 
 ## Integration tests
-- Tests code when it's integrated (IE, installed into Magento)
 - Tests against an actual running instance of Magento
 - Good for testing if an upgrade breaks the code
 - Generally more useful than Unit Testing
+---
+
+## Why integration tests?
 - Gives us a higher level of confidence that an upgrade didn't break our code
 - Also gives us high confidence that installing another module didn't break our code
 - We currently run these using Travis
@@ -57,3 +59,9 @@
 - Cypress promises to allow us to create tests quickly
 - Ghost inspector allows non-technical people to create tests as well
 ---
+
+## Why do we even care?
+- Adding these tests in will require time
+- More time in quotes
+- Less time required for manual testing in future
+- All this testing is automated
