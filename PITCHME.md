@@ -10,7 +10,7 @@
 ## What we consider testing
 1. Unit Tests
 2. Integration Tests
-3, Functional Tests
+3. Functional Tests
 ---
 
 ## 1. Unit Tests
@@ -21,13 +21,12 @@
 ## 2. Integration tests
 - Tests code when it's integrated (ie. installed into Magento)
 - Tests against an actual running instance of Magento
-- Good for testing if an upgrade breaks the code
 - Generally more useful than Unit Tests
 ---
 
 ### 2.1. Integration tests cont.
 - Good for testing if an upgrade breaks the code. Gives us a higher level of confidence that an upgrade didn't break our code
-- Gives us high confidence that installing another module didn't break our code
+- Gives us high confidence that installing a module didn't break our code
 - We currently run these using Travis...
 ---
 
@@ -57,6 +56,9 @@
 - There are several ways to achieve Functional testing
   - https://www.cypress.io/
   - https://ghostinspector.com/
+---
+
+### How? cont.
 - These services allow technical and non-technical people to create the tests
 - Cypress promises to allow us to create tests quickly
 - Ghost Inspector allows non-technical people to create tests as well
